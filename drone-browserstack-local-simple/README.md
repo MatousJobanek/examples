@@ -8,3 +8,4 @@ https://github.com/MatousJobanek/examples/blob/master/drone-browserstack-local-s
 
 The extension downloads and runs the binary BrowserStackLocal for you. 
 
+For more information see: https://github.com/arquillian/arquillian-extension-drone/tree/master/extension/arquillian-drone-browserstack-extension

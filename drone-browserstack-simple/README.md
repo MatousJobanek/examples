@@ -6,3 +6,4 @@ https://github.com/MatousJobanek/examples/blob/master/drone-browserstack-simple/
  
 2) run `mvn clean verify`
 
+For more information see: https://github.com/arquillian/arquillian-extension-drone/tree/master/extension/arquillian-drone-browserstack-extension
