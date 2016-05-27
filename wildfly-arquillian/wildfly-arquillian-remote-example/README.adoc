@@ -1,0 +1,8 @@
+=== Managed WildFly Arquillian container adapter with external server instance
+
+==== How to run
+1. Start your WildFly 10 instance
+2. Run this maven command: "mvn clean verify" or run the test as a JUnit test in your IDE. You can run the test as many time as you want without stopping the container.
+3. Stop the container
+
+The container resides in a separate JVM and its lifecycle (startup/shutdown) is managed by the user. Arquillian only binds to the container to deploy the test archive and invokes tests via a remote protocol; after the test run the archive is also undeployed.
