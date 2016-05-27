@@ -1,7 +1,7 @@
-=== Managed WildFly Arquillian container adapter with external server instance
+=== Managed WildFly Arquillian container adapter
 
 ==== How to run
-!) Write the path to your WildFly 10 instance directory into the arquillian.xml 
-2) Run this maven command: "mvn clean verify" or run the test as a JUnit test in your IDE
+1. Write the path to your WildFly 10 instance directory into the arquillian.xml
+2. Run this maven command: `mvn clean verify` or run the test as a JUnit test in your IDE
 
 The container resides in a separate JVM and its lifecycle (startup/shutdown) is managed by Arquillian.
