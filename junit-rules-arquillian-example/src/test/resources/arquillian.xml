@@ -5,9 +5,9 @@
         http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
 
 
-    <container qualifier="wildfly10" default="true">
+    <container qualifier="wildfly" default="true">
         <configuration>
-            <property name="jbossHome">/home/mjobanek/tmp/servers/tmp/wildfly-10.0.0.Final</property>
+            <property name="jbossHome">/path/to/your/wildfly</property>
         </configuration>
     </container>
 
