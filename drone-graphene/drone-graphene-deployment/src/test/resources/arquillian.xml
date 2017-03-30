@@ -6,6 +6,12 @@
 
     <extension qualifier="webdriver">
         <property name="browser">chrome</property>
+
     </extension>
 
+    <container qualifier="chameleon" default="true">
+        <configuration>
+            <property name="chameleonTarget">WildFly:10.1.0.Final:managed</property>
+        </configuration>
+    </container>
 </arquillian>
